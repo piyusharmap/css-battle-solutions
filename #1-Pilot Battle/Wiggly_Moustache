@@ -1,0 +1,59 @@
+<div id="l"></div>
+<div id="c"></div>
+<div id="r"></div>
+
+<style>
+  body{
+    background: #F5D6B4;
+    margin: 0;
+    position: relative;
+  }
+
+  #l, #r, #c{
+    width: 60px;
+    height: 30px;
+    border: 20px solid #D86F45;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+  }
+  #l, #r{
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top: 0;
+  }
+
+  #l{
+    margin: 0 0 0 -130px;
+  }
+
+  #r{
+    margin: 0 0 0 30px;
+  }
+
+  #c{
+    margin: -50px 0 0 -50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom: 0;
+  }
+
+  #l:before, #r:after{
+    content: "";
+    width: 20px;
+    height: 10px;
+    position: absolute;
+    background: #D86F45;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+    top: -10px;
+  }
+
+  #l:before{
+    left: -20px;
+  }
+
+  #r:after{
+    left: 60px;
+  }
+</style>

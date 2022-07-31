@@ -1,0 +1,59 @@
+<div>
+<div id="top"></div>
+<p id="one"><p id="two">
+<p id="one"><p id="two">
+<p id="one"><p id="two">
+<p id="one">
+</div>
+<p id="handle">
+
+<style>
+  body{
+    margin: 0;
+    background: #6592CF;
+    display: grid;
+    place-items: center;
+  }
+
+  #top{
+    top: 50px;
+    height: 50px;
+    width: 140px;
+    background: #6592CF;
+    position: absolute;
+    z-index: 0;
+  }
+
+  p{
+    margin: 0;
+    height: 110px;
+    width: 20px;
+    border-radius: 10px;
+  }
+
+  div {
+    width: 140px;
+    height: 200px;
+    background: #060F55;
+    border-radius: 10px 10px 70px 70px;
+    display: flex;
+    align-items: start;
+    z-index: -1;
+  }
+  
+  #one{
+    background: #060F55;
+    z-index: 2;
+  }
+
+  #two{
+    background: #6592CF;
+  }
+  
+  #handle{
+    border-radius: 0;
+    bottom: 0;
+    background: #060F55;
+    position: absolute;
+  }
+</style>

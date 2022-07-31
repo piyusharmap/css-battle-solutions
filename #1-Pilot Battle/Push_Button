@@ -1,0 +1,45 @@
+<div></div>
+<div class="circle"></div>
+<div class="circle2"></div>
+
+<style>
+  body{
+    margin: 0px;
+    padding: 0px;
+    background: #6592CF;
+    display: grid;
+  }
+
+  .circle{
+    height: 150px;
+    width: 150px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #243D83;
+    border: 50px solid #6592CF;
+    border-radius: 50%;
+  }
+
+  .circle2{
+    height: 50px;
+    width: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #EEB850;
+    border-radius: 50%;
+  }
+  
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 300px;
+    height: 150px;
+    background: #243D83;
+  }
+</style>

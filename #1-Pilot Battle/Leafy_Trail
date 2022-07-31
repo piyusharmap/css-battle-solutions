@@ -1,0 +1,38 @@
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+
+<style>
+  body{
+    background: #0B2429;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    background: #dd6b4d;
+    border-radius: 100px 0;
+  }
+
+  #one{
+    background: #F3AC3C;
+    right: 75px;
+    z-index: 2;
+  }
+
+  #two{
+    background: #998235;
+    z-index: 1;
+  }
+  
+  #three{
+    left: 75px;
+    background: #1A4341;
+    z-index: -1;
+  }
+  
+</style>

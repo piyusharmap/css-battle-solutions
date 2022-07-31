@@ -1,0 +1,26 @@
+<div id="box1"></div>
+<div id="box2"></div>
+<div id="box1"></div>
+
+<style>
+  body{
+    margin: 50px;
+    background: #62306D;
+    display: flex;
+  }
+
+  div {
+    width: 100px;
+    height: 100px;
+    background: #F7EC7D;
+  }
+
+  #box1{
+    margin-top: 100px;
+    border-radius: 0 0 50% 50%;
+  }
+  
+  #box2{
+    border-radius: 50% 50% 0 0;
+  }
+</style>

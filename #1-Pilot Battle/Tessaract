@@ -1,0 +1,41 @@
+<p id="back">
+<div></div>
+<p id="front">
+    
+<style>
+  *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body{
+    background:#222730;
+    display: grid;
+    place-items: center;
+  }
+
+  p#front{
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    background: #393E46
+  }
+
+  p#back{
+    position: absolute;
+    background: #4CAAB3;
+    height: 150px;
+    width: 400px;
+    z-index: -1;
+  }
+  
+  div {
+    width: 150px;
+    height: 150px;
+    background: #4CAAB3;
+    outline: 50px solid #222730;
+    transform: rotate(-45deg);
+  }
+</style>

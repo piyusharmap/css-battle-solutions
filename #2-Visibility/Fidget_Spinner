@@ -1,0 +1,55 @@
+<p>
+<div id="one"></div>
+<div id="two"></div>
+<div id="three"></div>
+<div id="four"></div>
+
+<style>
+  body{
+    background: #09042A;
+  }
+  div {
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #dd6b4d;
+    border-radius: 50%;
+  }
+
+  p{
+    position: absolute;
+    background: #E78481;
+    height: 60px;
+    width: 60px;
+    top: 130px;
+    left: 50%;
+    transform: translate(-50%,-50%);
+  }
+
+  #one{
+    background: #F5BB9C;
+    top: 97px;
+    border: 10px solid #09042A;
+  }
+
+  #two{
+    background: #09042A;
+    left: 140px;
+    border: 10px solid #E78481;
+  }
+
+  #three{
+    background: #09042A;
+    left: 260px;
+    border: 10px solid #E78481;
+  }
+
+  #four{
+    background: #F5BB9C;
+    top: 203px;
+    border: 10px solid #09042A;
+  }
+</style>

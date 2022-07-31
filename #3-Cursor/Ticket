@@ -1,0 +1,94 @@
+<div></div>
+<div></div>
+<p>
+
+<style>
+  body{
+    margin: 0;
+    background: #62306D;
+  }
+
+  div {
+    position: absolute;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  div:nth-of-type(1){
+    width: 140px;
+    background: #F7EC7D;
+    left: 170px;
+  }
+
+  div:nth-of-type(2){
+    width: 60px;
+    left: 270px;
+    background: #E38F66;
+  }
+
+  div:nth-of-type(1)::before, 
+  div:nth-of-type(1)::after{
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+	background: #62306D;
+    border-radius: 50%;
+    left: -20px;
+  }
+
+  div:nth-of-type(1)::before{
+    top: -20px;
+  }
+
+  div:nth-of-type(1)::after{
+    bottom: -20px;
+  }
+
+  div:nth-of-type(2)::before, 
+  div:nth-of-type(2)::after{
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+	background: #62306D;
+    border-radius: 50%;
+    right: -20px;
+  }
+
+  div:nth-of-type(2)::before{
+    top: -20px;
+  }
+
+  div:nth-of-type(2)::after{
+    bottom: -20px;
+  }
+
+  p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  p::before,
+  p::after{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: #62306D;
+    border-radius: 50%;
+    left: 30px;
+  }
+
+  p::before{
+    top: -76px;
+  }
+  
+  p::after{
+    bottom: -44px;
+  }
+</style>

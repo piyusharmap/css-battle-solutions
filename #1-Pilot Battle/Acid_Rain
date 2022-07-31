@@ -1,0 +1,40 @@
+<div id="first"></div>
+<div id="middle" class="drop"></div>
+<div id="last" class="drop"></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #0B2429;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .drop{
+    border-radius: 50% 0 50% 50%;
+  }
+
+  div {
+    position: relative;
+    width: 120px;
+    height: 120px;
+    background: #F3AC3C;
+  }
+
+  #first{
+    border-radius: 50%;
+    top: 30px;
+    left: 60px;
+  }
+
+  #middle{
+    top: -30px;
+    background: #998235;
+  }
+  
+  #last{
+    top: -90px;
+    right: 60px;
+  }
+</style>

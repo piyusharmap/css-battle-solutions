@@ -1,0 +1,38 @@
+<div class="outerBox">
+  	<div class="innerBox">
+  		<div class="box"></div>	
+		<div class="box"></div>			
+	</div>
+  	<div class="innerBox">
+  		<div class="box"></div>
+      	<div class="box"></div>		
+	</div>
+</div>
+
+<style>
+  body{
+    margin: 50px 50px;
+    padding: 0;
+    background: #62374e;
+  }
+  
+  .outerBox{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    gap: 100px;
+  }
+  
+  .innerBox{
+    display: flex;
+    flex-direction: row;
+    gap: 200px;
+  }
+  
+  .box{
+    height: 50;
+    width: 50;
+    background: #fdc57b;
+  }
+</style>

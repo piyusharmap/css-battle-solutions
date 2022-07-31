@@ -1,0 +1,42 @@
+<div id="first"></div>
+<div id="second"></div>
+
+<style>
+  body{
+    background: #09042A;
+  }
+
+  div {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+  }
+
+  #first{
+    background:#7B3F61;
+    left: 150px;
+  }
+
+  #second{
+    background: #E78481;
+    left: 250px;
+    overflow: hidden;
+  }
+
+  #second::before{
+    content: '';
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background: #09042A;
+    left: -25px;
+  }
+</style>
