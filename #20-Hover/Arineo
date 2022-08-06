@@ -1,0 +1,92 @@
+<!-- this solution is 99.9% match -->
+
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    padding: 0;
+    background: #FFFFFF;
+  }
+
+  div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  div:nth-of-type(1){
+    height: 0px;
+    width: 48px;
+    border-left: 84px solid transparent;
+    border-right: 84px solid transparent;
+    border-bottom: 180px solid #2E2926;
+  }
+
+  div:nth-of-type(2){
+    top: 180px;
+    height: 0;
+    width: 0;
+    border-left: 72px solid transparent;
+    border-right: 72px solid transparent;
+    border-bottom: 155px solid #FFFFFF;
+  }
+
+  div:nth-of-type(7){
+    height: 22px;
+    width: 22px;
+    background: #0088CA;
+    border-radius: 50%;
+  }
+
+   div:nth-of-type(5){
+    top: 124px;
+    left: 145.5px;
+    height: 80px;
+    width: 28px;
+    background: #0088CA;
+    border-top:0;
+    border-bottom: 0;
+    transform: rotate(90deg) skew(-45deg);
+  }
+
+  div:nth-of-type(6){
+    top: 84px;
+    left: 245px;
+    height: 120px;
+    width: 28px;
+    background: #0088CA;
+    border-top:0;
+    border-bottom: 0;
+    transform: rotate(90deg) skew(45deg);
+  }
+
+  div:nth-of-type(4){
+    top: 124px;
+    left: 134px;
+    height: 80px;
+    width: 50px;
+    background: #FFFFFF;
+    border-top:0;
+    border-bottom: 0;
+    transform: rotate(90deg) skew(-45deg);
+  }
+
+  div:nth-of-type(3){
+    top: 84px;
+    left: 233.5px;
+    height: 120px;
+    width: 50px;
+    background: #FFFFFF;
+    border-top:0;
+    border-bottom: 0;
+    transform: rotate(90deg) skew(45deg);
+  }
+</style>

@@ -1,0 +1,64 @@
+<p><p><p>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  bodY{
+    margin: 0;
+    padding: 0;
+    background: #000000;
+  }
+
+  div {
+    position: absolute;
+    width: 300px;
+    height: 20px;
+    background: #dd6b4d;
+    border-radius: 20px;
+    background: #AF067C;
+  }
+
+  div:nth-of-type(1){
+    top: 90px;
+    left: 50px;
+  }
+
+  div:nth-of-type(2){
+    top: 140px;
+    left: 50px;
+    transform: rotate(-4deg);
+  }
+  div:nth-of-type(3){
+    top: 190px;
+    left: 50px;
+  }
+
+  p{
+    position: absolute;
+  }
+  
+  p:nth-of-type(1){
+    top: 85px;
+    left: 80px;
+    height: 50px;
+    width: 20px;
+    background: #FFFFFF;
+  }
+
+  p:nth-of-type(2){
+    top: 130px;
+    left: 190px;
+    height: 50px;
+    width: 20px;
+    background: #FFFFFF;
+  }
+
+  p:nth-of-type(3){
+    top: 85px;
+    left: 300px;
+    height: 100px;
+    width: 20px;
+    background: #FFFFFF;
+  }
+</style>
