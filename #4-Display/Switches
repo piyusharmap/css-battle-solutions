@@ -1,0 +1,47 @@
+<div></div>
+<div></div>
+<p><p>
+  
+<style>
+  body{
+    margin: 0;
+    background: #62306D
+  }
+  
+  div {
+    position: absolute;
+    width: 100px;
+    height: 150px;
+    border-radius: 50px;
+  }
+
+  div:nth-of-type(1){
+    background: #AA445F;
+    top: 50px;
+    left: 80px
+  }
+
+  div:nth-of-type(2){
+    background: #E38F66;
+    top: 100px;
+    left: 220px
+  }
+
+  p{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+    background: #F7EC7D;
+    border-radius: 50%;
+  }
+
+  p:nth-of-type(1){
+    top: 84px;
+    left: 80px;
+  }
+
+  p:nth-of-type(2){
+    top: 84px;
+    left: 220px;
+  }
+</style>

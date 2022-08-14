@@ -1,0 +1,41 @@
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #F3AC3C;
+  }
+
+  div {
+    position: absolute;
+    top: 200px;
+    left: 150px;
+    width: 50px;
+    height: 50px;
+    background: #F3AC3C;
+  }
+
+  div::before, ::after{
+    position: absolute;
+  }
+
+  div::before{
+    content: '';
+    top: -50px;
+    left: -50px;
+    width: 100px;
+    height: 100px;
+    background: #998235;
+    z-index: -1;
+  }
+
+  div::after{
+    content: '';
+    top: -150px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: #1A4341;
+    z-index: -2;
+  }
+</style>

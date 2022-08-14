@@ -1,0 +1,95 @@
+<div></div>
+<div></div>
+<div><p></div>
+    
+<style>
+  body{
+    margin: 0;
+    background: #000000;
+  }
+
+  div:nth-of-type(1){
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    width: 60px;
+    height: 60px;
+    background: #E0E246;
+    border-radius: 50%;
+  }
+
+  div:nth-of-type(1)::before{
+    position: absolute;
+    content: '';
+    height: 40px;
+    width: 40px;
+    background: #000000;
+    top: 10px;
+    left: 35px;
+    transform: rotate(45deg);
+  }
+
+  div:nth-of-type(2){
+    position: absolute;
+    content: '';
+    width : 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%;
+    top: 145px;
+    left: 195px
+  }
+
+  div:nth-of-type(2)::before,
+  div:nth-of-type(2)::after{
+    position: absolute;
+    content: '';
+    width : 10px;
+    height: 10px;
+    background: #fff;
+    border-radius: 50%
+  }
+
+  div:nth-of-type(2)::before{
+    left: -30px;
+  }
+
+  div:nth-of-type(2)::after{
+    left: 30px;
+  }
+
+  div:nth-of-type(3){
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    background: #C74E4E;
+    border-radius: 50% 50% 0 0;
+    top: 40%;
+    right: 15%;
+  }
+
+  div:nth-of-type(3)::before,
+  div:nth-of-type(3)::after{
+    position: absolute;
+    content: '';
+    width: 20px;
+    height: 20px;
+    top: 86%;
+    background: #000;
+    transform: rotate(45deg);
+  }
+
+  div:nth-of-type(3)::after{
+    left: 67%
+  }
+
+  p{
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    background: #000000;
+    top: 60%;
+    left: 35%;
+    transform: rotate(45deg);
+  }
+</style>

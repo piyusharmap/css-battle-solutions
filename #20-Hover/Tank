@@ -1,0 +1,101 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<p><p>
+
+<style>
+  body{
+    margin: 0;
+    background: #000;
+    border: 20px solid #54C144;
+  }
+
+  div{
+    position: absolute;
+  }
+
+  div:nth-of-type(1){
+    height: 40px;
+    width: 80px;
+    background: #C74E4E;
+    top: 60px;
+    left: 60px;
+  }
+
+  div:nth-of-type(2){
+    height: 40px;
+    width: 80px;
+    background: #C74E4E;
+    top: 60px;
+    left: 180px;
+  }
+
+  div:nth-of-type(3){
+    height: 40px;
+    width: 200px;
+    background: #C74E4E;
+    top: 140px;
+    left: 60px;
+  }
+
+  div:nth-of-type(4){
+    height: 40px;
+    width: 180px;
+    background: #C74E4E;
+    top: 130px;
+    left: 230px;
+    transform: rotate(90deg);
+  }
+
+  div:nth-of-type(5){
+    position: absolute;
+    height: 40px;
+    width: 20px;
+    background: #54C144;
+    top: 200px;
+    left: 70px;
+  }
+
+  div:nth-of-type(5)::before,
+  div:nth-of-type(5)::after{
+    position: absolute;
+    content: '';
+    height: 10px;
+    width: 40px;
+    background: #54C144;
+    left: -10px;
+  }
+
+  div:nth-of-type(5)::after{
+    top: 30px;
+  }
+
+  div:nth-of-type(6){
+    position: absolute;
+    height: 10px;
+    width: 20px;
+    background: #54C144;
+    top: 215px;
+    left: 90px;
+  }
+
+  p:nth-of-type(1){
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    top: 199px;
+    left: 120px;
+  }
+
+  p:nth-of-type(2){
+    position: absolute;
+    height: 10px;
+    width: 10px;
+    background: #fff;
+    top: 199px;
+    left: 140px;
+  }
