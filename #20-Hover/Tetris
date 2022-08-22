@@ -1,0 +1,66 @@
+<div>
+  <p><p><p><p><p><p>
+  <p><p><p><p><p><p>
+  <p><p><p><p><p><p>
+  <p><p><p><p><p><p>
+  <p><p><p><p><p><p>
+  <p><p><p><p><p><p>
+</div>
+
+<style>
+  body{
+    margin: 0;
+    background: #173889;
+  }
+  div{
+    display: flex;
+    margin: 0 auto;
+    padding: 0;
+    width: 300px;
+    height: 400px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    row-gap: 6px;
+  }
+  p{
+    margin: 0;
+    height: 45px;
+    width: 45px;
+    background: #173889;
+  }
+  p:nth-of-type(5),
+  p:nth-of-type(10),
+  p:nth-of-type(11),
+  p:nth-of-type(16),
+  p:nth-of-type(21),
+  p:nth-of-type(25),
+  p:nth-of-type(26),
+  p:nth-of-type(27){
+    background: #EE4F63;
+  }
+
+  p:nth-of-type(13),
+  p:nth-of-type(14),
+  p:nth-of-type(19),
+  p:nth-of-type(20),
+  p:nth-of-type(31){
+    background: #F8DA37;
+  }
+
+  p:nth-of-type(28),
+  p:nth-of-type(32),
+  p:nth-of-type(33),
+  p:nth-of-type(34),
+  p:nth-of-type(36){
+    background: #2CE1EA
+  }
+
+  p:nth-of-type(23),
+  p:nth-of-type(29),
+  p:nth-of-type(30),
+  p:nth-of-type(35){
+    background: #B069F7
+  }
+</style>

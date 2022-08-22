@@ -1,0 +1,76 @@
+<p><p><p><p><p><p></p>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #1E92FF
+  }
+
+  div{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: -1;
+  }
+  
+  div:nth-of-type(1){
+    height: 120px;
+    background: #69D10A;
+  }
+
+  div:nth-of-type(2){
+    height: 80px;
+    background: #6F6100;
+  }
+
+  div:nth-of-type(3){
+    top: 100px;
+    left: 50px;
+    height: 100px;
+    width: 20px;
+    background: #441A0A;
+    z-index: -2;
+  }
+
+  p{
+    position: absolute;
+    height: 40px;
+    width: 40px;
+    background: #69D10A;
+    border-radius: 50%;
+    z-index: 5;
+  }
+
+  p:nth-of-type(1){
+    top: 114px;
+    right: 50px;
+  }
+
+  p:nth-of-type(2){
+    top: 134px;
+    right: 50px;
+  }
+
+  p:nth-of-type(3){
+    top: 44px;
+    left: 40px;
+  }
+
+  p:nth-of-type(4){
+    top: 64px;
+    left: 20px
+  }
+
+  p:nth-of-type(5){
+    top:64px;
+    left: 40px;
+  }
+
+  p:nth-of-type(6){
+    top: 64px;
+    left: 60px;
+  }
+</style>
