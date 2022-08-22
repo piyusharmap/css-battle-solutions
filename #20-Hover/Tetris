@@ -12,6 +12,7 @@
     margin: 0;
     background: #173889;
   }
+  
   div{
     display: flex;
     margin: 0 auto;
