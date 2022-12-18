@@ -1,0 +1,36 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+  }
+
+  div:nth-of-type(1) {
+    width: 400px;
+    height: 50px;
+    background: #F7EC7D;
+  }
+
+  div:nth-of-type(2) {
+    width: 100vw;
+    height: 50px;
+    background: #E38F66;
+  }
+
+  div:nth-of-type(3) {
+    width: 400px;
+    height: 100px;
+    background: #AA445F;
+  }
+
+  div:nth-of-type(4) {
+    width: 100vw;
+    height: 150px;
+    background: #62306D;
+  }
+</style>
