@@ -1,0 +1,31 @@
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #AA445F;
+    display: grid;
+    place-items: center;
+  }
+
+  div {
+    width: 100px;
+    height: 200px;
+    position: absolute;
+    border-radius: 100px 0 0 100px;
+  }
+
+  div:nth-of-type(1){
+    top: 50px;
+    left: 75px;
+    background: #F7EC7D;
+  }
+
+  div:nth-of-type(2){
+    top: 50px;
+    left: 225px;
+    transform: rotate(180deg);
+    background: #E38F66;
+  }
+</style>
