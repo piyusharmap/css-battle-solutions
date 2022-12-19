@@ -1,0 +1,40 @@
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #6592CF;
+    display: grid;
+    place-items: center;
+  }
+
+  div {
+    background: #243D83;
+    position: absolute;
+  }
+
+  div:nth-of-type(1){
+    width: 100px;
+    height: 100px;
+    background: transparent;
+    border: 50px solid #243D83;
+    border-radius: 50%;
+  }
+
+  div:nth-of-type(3){
+    width: 50px;
+    height: 100px;
+    top: 50px;
+    left: 100px;
+  }
+
+  div:nth-of-type(2){
+    width: 100px;
+    height: 100px;
+    top: 50px;
+    left: 100px;
+    background: #6592CF;
+  }
+</style>

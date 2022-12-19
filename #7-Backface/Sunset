@@ -1,0 +1,63 @@
+<div></div>
+<div></div>
+<div></div>
+<p></p>
+<p></p>
+<p></p>
+<p></p>
+
+<style>
+  body{
+    margin: 0;
+    background: #1A4341;
+    display: grid;
+    place-items: center;
+  }
+  
+  div:nth-of-type(1) {
+    width: 200px;
+    height: 200px;
+    background: #998235;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  div:nth-of-type(2){
+    width: 250px;
+    height: 100px;
+    background: #F3AC3C;
+    position: absolute;
+  }
+  
+  div:nth-of-type(3){
+    height: 250px;
+    width: 250px;
+    background: transparent;
+    border: 20px solid #1A4341;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
+  p{
+    width: 250px;
+    height: 20px;
+    background: #1A4341;
+    position: absolute;
+  }
+  
+  p:nth-of-type(1){
+    top: 64px;
+  }
+  
+  p:nth-of-type(2){
+    top: 104px;
+  }
+  
+  p:nth-of-type(3){
+    top: 144px;
+  }
+  
+  p:nth-of-type(4){
+    top: 184px;
+  }
+</style>
