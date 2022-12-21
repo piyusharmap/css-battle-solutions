@@ -1,0 +1,37 @@
+<!-- this solution is 99.9% match -->
+
+<div></div>
+<p></p>
+
+<style>
+  *{
+    box-sizing: border-box;
+  }
+
+  body{
+    margin: 0;
+    background: #E38F66;
+    display: grid;
+    place-items: center;
+  }
+
+  div {
+    height: 120px;
+    width: 130px;
+    background: transparent;
+    border-top: 0px;
+    border-left: 35px solid transparent;
+    border-right: 35px solid transparent;
+    border-bottom: 120px solid #FFFBDA;
+    position: absolute;
+  }
+
+  p{
+    height: 100px;
+    width: 10px;
+    background: #62306D;
+    position: absolute;
+    bottom: -20;
+    z-index: -1;
+  }
+</style>
