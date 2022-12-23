@@ -1,0 +1,38 @@
+<p></p>
+<p></p>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #4F77FF;
+    display: grid;
+    place-items: center;
+  }
+
+  div {
+    background: #1038BF;
+    border-bottom: 200px solid #1038BF;
+    border-right: 200px solid #4F77FF;
+    border-left: 200px solid #4F77FF;
+    position: absolute;
+    top: 138px;
+  }
+
+  p{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    position: absolute;
+  }
+
+  p:nth-of-type(1){
+    background: #FFFFFF;
+    top: 34px;
+  }
+
+  p:nth-of-type(2){
+    background: #4F77FF;
+      top: 74;
+  }
+</style>
