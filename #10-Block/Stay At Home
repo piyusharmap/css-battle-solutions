@@ -1,0 +1,47 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #6592CF;
+    display: grid;
+    place-items: center;
+  }
+  div:nth-of-type(1) {
+    border-bottom: 100px solid #243D83;
+    border-left: 100px solid transparent;
+    border-right: 100px solid transparent;
+    position: absolute;
+    top: 50px;
+  }
+
+  div:nth-of-type(2) {
+    width: 150px;
+    height: 130px;
+    background: #243D83;
+    position: absolute;
+    top: 120px;
+    border-radius: 10px;
+  }
+
+  div:nth-of-type(3) {
+    width: 100px;
+    height: 10px;
+    background: #EEB850;
+    position: absolute;
+    top: 145px;
+    border-radius: 10px;
+  }
+
+  div:nth-of-type(4) {
+    width: 50px;
+    height: 50px;
+   background: #EEB850;
+    position: absolute;
+    top: 200px;
+    border-radius: 10px 10px 0 0;
+  }
+</style>

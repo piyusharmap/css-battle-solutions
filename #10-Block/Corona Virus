@@ -1,0 +1,73 @@
+<p></p>
+<p></p>
+<p></p>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    margin: 0;
+    background: #1A4341;
+    display: grid;
+    place-items: center;
+  }
+
+  div:nth-of-type(1) {
+    width: 100px;
+    height: 100px;
+    background: #F3AC3C;
+    border-radius: 50%;
+    position: absolute;
+  }
+  div:nth-of-type(2){
+    width: 20px;
+    height: 20px;
+    background: #998235;
+    position: absolute;
+    border-radius: 50%;
+    top: 165px;
+  }
+
+  div:nth-of-type(3){
+    width: 30px;
+    height: 30px;
+    background: #998235;
+    position: absolute;
+    border-radius: 50%;
+    top: 120px;
+    left: 170px;
+  }
+
+  div:nth-of-type(4){
+    width: 10px;
+    height: 10px;
+    background: #998235;
+    position: absolute;
+    border-radius: 50%;
+    top: 120px;
+    right: 170px;
+  }
+
+  p{
+    width: 10px;
+    height: 180px;
+    background: #F3AC3C;
+    position: absolute;
+    top: 34px;
+    border-radius: 10px;
+  }
+
+  p:nth-of-type(2){
+    transform: rotate(60deg);
+    top:39px;
+    left: 203px;
+  }
+
+  p:nth-of-type(3){
+    transform: rotate(-60deg);
+    top:49px;
+    left: 203px;
+  }
+</style>
