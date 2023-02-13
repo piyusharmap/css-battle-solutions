@@ -1,0 +1,69 @@
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+<div></div>
+
+<style>
+  body{
+    background: #6592CF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  div {
+    width: 10px;
+    height: 50px;
+    background: #243D83;
+    margin: 30px 17.5px 0;
+    position: relative;
+  }
+
+  div:nth-of-type(3){
+    margin-right: 47.5px;
+  }
+
+  ::before, ::after{
+    content: "";
+    position: absolute;
+    border-radius: 50%;
+  }
+
+  div::after{
+    width: 20px;
+    height: 20px;
+    background: #243D83;
+    left: -5px;
+    top: -10px;
+  }
+
+  div:nth-child(1)::before{
+    width: 40px;
+    height: 40px;
+    background: #EEB850;
+    top: -20px;
+    left: -15px;
+    z-index: -1;
+  }
+
+  div:nth-child(3)::before{
+    width: 40px;
+    height: 40px;
+    background: #EEB850;
+    top: -20px;
+    left: -15px;
+    z-index: -1;
+  }
+  
+  div:nth-child(2)::before{
+    width: 60px;
+    height: 60px;
+    background: #EEB850;
+    top: -40px;
+    left: -25px;
+    z-index: -1;
+  }
+</style>

@@ -1,0 +1,108 @@
+<div class="container">
+  <div class="body">
+    <i>
+      <b></b>
+      <u></u>
+    </i>
+    <b>
+      <b>
+        <b>
+          <b>
+            <u><u></u></u>
+          </b>
+        </b>
+      </b>
+    </b>
+  </div>
+</div>
+
+<style>
+  body {
+    background-color: #171d23;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+  }
+
+  .container {
+    background-color: #1a4341;
+    width: 400px;
+    height: 300px;
+    position: relative;
+  }
+
+  .body {
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    position: absolute;
+  }
+
+  .container * {
+    background: var(--b, #1a4341);
+    padding: var(--p, 0);
+    border-radius: var(--r, 20px);
+    position: absolute;
+    margin: var(--m, 0);
+  }
+
+  .container u {
+    --b: #998235;
+  }
+
+  .container i {
+    --b: linear-gradient(#f3ac3c 55px, #998235 0);
+    --p: 70px 50px;
+    --m: 110px 150px;
+  }
+
+  .container b {
+    --b: #f3ac3c;
+    --p: 25px;
+    --r: 10px;
+    --m: 90px 175px;
+  }
+
+  .container b b {
+    --p: 20px 10px;
+    --m: -55px -10px;
+  }
+
+  .container b b b {
+    --p: 10px 75px;
+    --m: -30px -50px;
+  }
+
+  .container b b b b {
+    --p: 20px 10px;
+    --m: -10px 55px;
+  }
+
+  .container b u {
+    --p: 10px;
+    --m: 30px -10px;
+  }
+
+  .container u u {
+    --m: 20px -10px;
+  }
+
+  .container i * {
+    --p: 25px;
+    --r: 50%;
+  }
+
+  .container i b {
+    --m: -40px 0;
+  }
+
+  .container i u {
+    --m: -40px -50px;
+  }
+</style>
